@@ -1,5 +1,6 @@
 There are some strict rules that you must know before contributing to this project.
 
+- If you want to claim any issue (task), just reply with any message on that issue thread which justifies that you want to work on this issue. Ex :- `Claim`, `I want to work on this issue`, etc. 
 - If you are making your first PR, then other than the task provided in the issue section, PR must contain your `info.md` file with some information about you
  at this location: <br>
   ```java

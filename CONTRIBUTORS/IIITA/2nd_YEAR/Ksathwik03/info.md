@@ -4,7 +4,10 @@ I am a 2nd Year student at IIITA . <br>
 To know more about me <a href = "https://github.com/Ksathwik03">visit here</a>.<br>
 My created repositry is here <a href = "https://github.com/Ksathwik03/go-git"></a>
 
+**Ques - ** You will see that some repo on GitHub has a main branch as their main but some have a master branch as their main branch. So, please explain in which case Git/GitHub creates main as the main branch and in which case it creates master as the main branch.
 
+
+**Solution - **
 Initializing a repo with no contents in it -
 git init
 git add .

@@ -5,23 +5,18 @@ To know more about me <a href = "https://github.com/Ksathwik03">visit here</a>.<
 My created repositry is here <a href = "https://github.com/Ksathwik03/go-git"></a>
 
 
-Initializing a repo -
+Initializing a repo with no contents in it -
 git init
 git add .
 git commit -m "my commit"
 
-Now our default branch is master. So we have to decide now whether to keep that or change it to main.
-
-If we decide to keep it as master, then:
+Now our default branch is master.
 
 git remote add origin my_repository
 git push -u origin master
 
 
-On the other hand if we decide to keep main branch our main branch, then:
+Let's say we initially decide when you create the GitHub repo that you want it to have initial contents. 
+Suppose we elect to start your GitHub repo with a Readme. Okay, so now the GitHub repo does have an initial branch, and it is main.
 
-git remote add origin my_repository
-git branch -M main
-git push -u origin main
-
-Hence github consists of 2 different main branches master and main
+Hence github consists of 2 different main branches master and main.

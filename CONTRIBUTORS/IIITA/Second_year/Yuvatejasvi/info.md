@@ -1,4 +1,4 @@
-Hello everyone ! <br>
-This is Yuvatejasvi. <br>
-My github profile <a href = https://github.com/Yuvatejasvi>visit here</a>.<br>
-my repo link <a href = "https://github.com/Yuvatejasvi/spkr">link</a>.
+Hello everyone!<br>
+This is kasu yuvatejasvi<br/>
+My github accout <a href = "https://github.com/Yuvatejasvi">here</a>
+My repo link <a href = "https://github.com/Yuvatejasvi/spkr">here</a>

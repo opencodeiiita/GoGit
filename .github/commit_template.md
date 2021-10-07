@@ -1,11 +1,12 @@
-**X** : This is the latest commit number present in the title of latest commit inside main branch. Visit <a href = "https://github.com/ABHAY0O7/GoGit/commits/main">here</a> to check the latest commit number
-## Title:
+## Title of the commit:
 	Commit message - <X+1>
 	
-## Description:
+## Description of the commit:
 	An appropriate message that desccribes the changes you performed in this commit.
 	
-## Important points
+## Important points (don't include these points in your commit message, these are just for your information). 
+- **X** : This is just a number present in the title of the latest commit inside main branch.
+- Visit <a href = "https://github.com/ABHAY0O7/GoGit/commits/main">here</a> to check the latest commit with value of "X" and also see that most of the commit's done by me follows commit template, so you can also take hint from there. 😄 
 - **Try to complete the task in minimum possible commits. Unnecessary commits may leads to PR rejection.**
 - **If your PR has more than one commit, then each commit's title number ie X should be increase by 1 as compare to previous commit's X**
 - **If you are working on a task and in that time period if the upstream got updated then you must sync your PR with the latest upstream commit following the value of "X".

@@ -9,3 +9,6 @@ ANS)
 -> SSH (Secure Shell) is a network communication protocol that enables two computers to communicate and share data.
 
 ->SSH keys are more difficult to hack than passwords and thus are more secure.
+
+How to edit the last commit message in git?
+On the command line, navigate to the repository that contains the commit you want to amend. Type git commit --amend and press Enter. In your text editor, edit the commit message, and save the commit.

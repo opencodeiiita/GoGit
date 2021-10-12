@@ -11,3 +11,8 @@ In other words A pair of encryption a private key and a public key are generated
 The SSH protocol uses keys for authentication in two ways:<br>
        1. Authenticating users<br>
        2. Authenticating servers<br>
+
+**ques 2** How to edit the last commit message in git?<br>
+**ans** git commit --amend -m "title" -m "discription"<br>
+
+

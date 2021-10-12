@@ -13,3 +13,8 @@ Ans) SSH key is another way to indentify ourself instead of username and passwor
      Advantages:
         SSH keys are more secure than username and password.
         Easily identify yourself instead of typing username and password.
+
+Ques - How to edit the last commit message in git? (Issue: 332)
+
+Ans) In git, last commit can be edited by using the command git commit --amend. After this command, a editor 
+open up in which we can edit our commit. After editing and exiting the editor, the commit is edited. 

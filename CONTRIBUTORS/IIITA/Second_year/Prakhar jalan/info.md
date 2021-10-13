@@ -12,3 +12,17 @@ How to edit commit message:-
 
 
 This is a vague commit!
+
+get the commit id from git log
+$ git rebase -i <commitId>
+This will open an editor and show a list of all commits since the commit we want to get rid of:
+
+1: 
+2: 
+3: 
+pick <commitId>
+pick <commitId1>
+...
+remove the line with the offending commit, (vi: delete current line = dd). Save and close the editor (vi: press :wq and return).
+
+$ git push --force

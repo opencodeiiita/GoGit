@@ -12,3 +12,7 @@ SSH keys are just pairs of a public and private key. The Private keys are used t
 There are two cases : 
 1. Changes not pushed : If changes are not pushed we can simply add --amend flag and it will amend last commit. 
 2. Changes are pushed : If Changes are pushed we need to --amend the and also force push the changes using the -f flag
+
+## Issue : 366
+#### Ques - Explain the whole process that you will be using to delete that commit.
+I will delete second commit so i write ans here. To delete a commit i will use 'reset'. using this my repo will go to previous commit state and loose all other commits. i will provide the commit hash to where i want to revert my repo to. 

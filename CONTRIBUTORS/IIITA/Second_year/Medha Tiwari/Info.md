@@ -33,3 +33,14 @@ in the editor(i -> insert mode, write the commit message and the press'ESC' and 
 OR
 
 git commit --amend -m"commit message"
+
+
+### Issue [366](https://github.com/opencodeiiita/GoGit/issues/366)
+
+For deleting the commits I have used git rebase -i (interactive rebasing).
+
+Lets say I have made two commits "commit-1" and "commit-2" (in that order) and I have to keep one of them and delete (or drop) the another one.
+
+for this I will use the sha key of the commit that was made before these two commits.
+
+Now, this will open up the editor for me with two commits on the top of the editor, now I can just remove one of them and woala I have deleted the commit.(easy peasy ;))

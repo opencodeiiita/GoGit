@@ -15,3 +15,13 @@ For instance, my GitHub SSH Keys secure the connection between my local systems 
 #### How to edit the last commit message in git?
 - The last commit message in git can be edited by using the command <br>
 #### git commit --amend -m "correct message" -m "correct description"
+<<<<<<< HEAD
+=======
+
+### Issue 366:
+#### this is the second commit. i'll retain this one.
+- i'll make two commits, push the changes and make a pr
+- after that i'll use the command "git rebase -i HEAD~2" to see my last two commits
+- in front of the first commit, which i want to delete, i'll replace the "pick" with "drop"
+- in this way i'll delete the first commit and push the changes again
+>>>>>>> 7de3db4 (second commit)

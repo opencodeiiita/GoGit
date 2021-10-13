@@ -14,3 +14,7 @@ Ans  - Basically from my understanding SSH keys are secure alternate to email an
   SSH keys are much securer and easier because we don't have to write anything email and password. Also there is no chance of spelling mistake.
   
   It easily identify yourself no one can identify our private informations like password.
+
+  How to edit last commit message using git?
+  
+  The git commit --amend command allows you to change the most recent commit message.

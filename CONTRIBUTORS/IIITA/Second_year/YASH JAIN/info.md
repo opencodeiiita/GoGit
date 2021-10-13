@@ -3,3 +3,15 @@ SSH keys basically helps us to keep our data secure.If my git gets hacked the ha
 
 
 how to edit commit type command git commit --amend then edit the commit in your text editor.
+how to delete commit
+git checkout new-branch
+git cherry-pick <commit hash>
+now go to new branch gco new-branch
+git reset --hard <commit hash>
+git merge <branch name>
+git push --force origin <branch name>
+
+
+
+
+

@@ -9,3 +9,7 @@ Ans - A SSH key is a substitute way of distinguishing ourself.It converts out pa
 Ques - How to edit last commit message in git?
 
 Ans -  To edit our last commit message in git we have to use a command "git commit --amend", this will show us the last commit message int vim we can use insert and edit our commit message hit :wq exit the vim and hence last message is commited
+
+Ques - Explain the whole process that you will be using to delete that commit.
+
+Ans - To delete out last commit git log shows all the activity to delete the last n commits copy the id upto wich u want to delete then git reset --hard <commit id> if the commit is pushed then we have to force push to update changes in our repo git push origin head -f 

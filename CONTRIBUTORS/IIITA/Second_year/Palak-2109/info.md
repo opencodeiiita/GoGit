@@ -6,3 +6,6 @@ As per my understanding SSH keys authenticates a secure connection between remot
 
 ## How to edit the last commit message in git?
 In Git we can change our last commit message by using amend..The command being git commit --amend..This command will open our last commit message in the text editor where we can edit the commit message and then commit it again.
+
+## How to delete a commit in git?
+For deleting a commit in git we will use git reset .Here I will make two commits and then delete the second one which is the last of the two commits so we can use git reset --hard HEAD^ ..we don't need to specify any commit id or number as it would be pointing to last commit only..but if we want to delete n commits from the end we can use git reset --hard HEAD~n .and then push the changes.

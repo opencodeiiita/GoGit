@@ -26,3 +26,8 @@ What do you really understand from SSH keys? What are the advantages of using it
 
 SSH is Secure Shell Protocol. It allow us to connect remote computer by using text based interface. Using ssh we can log into another compter and perform any commands on that computer securely. It provide secure connection between two host in insecure network.In terms of github, github is server side computer and aur local system is a client server. Using ssh key we make secure connection between the same host and they mainly comes in pair one is public and other one is private.
 
+
+## Que(issue-332) How to edit the last commit message in git?
+## Ans: 
+By using commond git commit --amend and pressing enter it will open a editor in which we can first press i to enter in insert mode then you can edit last commit message.
+

@@ -15,3 +15,8 @@ Question: How to edit last commit message in git?
 
 Answer:  For editing our last commit message in git we have to use a command "git commit --amend", this will show us the last commit message and also the option to edit this.
          After editing our last commit message we just have to type ":wq" and we will exit the wim and thus we have our last commit message edited. 
+         
+Question: Explain the whole process that you will be using to delete that commit.
+
+Answer : I will be answering this in my second commit message and deleting my first commit message. After making the second commit and pushing the commits , I just used "git rebase -i HEAD~2" in order to rebase the last two commits.
+         Then I replaced the "pick" keyword before the first commit message with "d" keyword and then use :wq to exit wim and then forced push the commits using "git push --force".         

@@ -1,0 +1,3 @@
+i will create a todo file for interactive rebase  
+drop <commit hash> <commit msg>
+git rebase --interactive --autostash --keep--empty <commit hash>

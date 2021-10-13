@@ -1,4 +1,4 @@
-Hey!
+.Hey!
 This is Prakhar Jalan.
 my profile link : https://github.com/jalanprakhar
 
@@ -9,3 +9,6 @@ How to edit commit message:-
  you can amend the commit message with the git commit --amend command.
 
 2)If the commit is pushed:Follow the above steps and use -push --force-with-lease
+
+
+This is a vague commit!

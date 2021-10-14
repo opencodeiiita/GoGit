@@ -18,3 +18,9 @@ Ques - How to edit the last commit message in git? (Issue: 332)
 
 Ans) In git, last commit can be edited by using the command git commit --amend. After this command, a editor 
 open up in which we can edit our commit. After editing and exiting the editor, the commit is edited. 
+
+Ques - (Issue: 336)
+
+Ans) First I answered the ques and made the first commit. Then I added a new line and made second commit.
+Then I pushed the changes and made PR. Then using git rebase -i HEAD~1 i deleted the second commit. Since
+I deleted the second commit, there will be no merge conflicts. Then I force pushed this changes.

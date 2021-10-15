@@ -19,3 +19,12 @@ To know more, <a href = "https://github.com/james3gh">click here</a>.
 git commit --amend -m "title" -m "description" . <br />
 You can also write the commit message in vi editor using amend command.
 However using this command makes a new commit hash, so one need to force push it to be reflected in remote repo.
+
+### Ques - Explain the whole process that you will be using to delete that commit.
+
+### Ans - Deleting the second commit.
+
+After pushing the two commits, git reset to the commit hash of the correct commit(in my case first commit), now the changes will be in the working directory but the wrong commit is removed in git log
+
+Now git stash to remove the changes in working directory also.
+Git push -f and git stash drop

@@ -8,5 +8,6 @@ There are 2 types of ssh keys- public and private. Private key is only know to u
 commit 1:
 commit both the changes.
 make pr
-git reset <commit id of the first commit>
-git push orgin main -f
+git log
+git reset <commit id of first commit>
+git push origin main -f

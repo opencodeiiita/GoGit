@@ -13,3 +13,10 @@ b. On the other hand, Alice had provided github with her ssh public key(which sh
 Note: Bruteforcing has not been taken into consideration, however all aspects of the security provided by public/private keypairs depends on how the person secures their private keys.
 
 - Works well with keyrings, password managers, or any other way user desires.
+
+
+
+## Issue #397
+
+#### Resources that you follow to learn the above tech-stacks (development)?
+read real programs, make hobby apps, learn along the way

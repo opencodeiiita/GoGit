@@ -18,5 +18,8 @@ Note: Bruteforcing has not been taken into consideration, however all aspects of
 
 ## Issue #397
 
+#### Which kind of development(s) do you do? (web/app/cc/etc)?
+Currently focussing on backend & ethereum development(solidity)
+
 #### Resources that you follow to learn the above tech-stacks (development)?
 read real programs, make hobby apps, learn along the way

@@ -15,3 +15,6 @@ Question: How to edit last commit message in git?
 
 Answer:  For editing our last commit message in git we have to use a command "git commit --amend", this will show us the last commit message and also the option to edit this.
          After editing our last commit message we just have to type ":wq" and we will exit the wim and thus we have our last commit message edited. 
+
+Ques - 2 Resources that you follow to learn the above tech-stacks (development)?
+Answer: Udemy and Youtube.

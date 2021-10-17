@@ -18,3 +18,5 @@ Answer:  For editing our last commit message in git we have to use a command "gi
 
 Ques - 2 Resources that you follow to learn the above tech-stacks (development)?
 Answer: Udemy and Youtube.
+Ques - 1 Which kind of development(s) do you do? (web/app/cc/etc).
+Answer:  Web Development and cc.

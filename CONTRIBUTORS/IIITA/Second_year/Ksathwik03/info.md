@@ -18,3 +18,10 @@ Ques - How to delete a commit in git?
 
 Ans -  To delete a commit in git we have to use a command "git rebase -p --onto SHA^ SHA",ShA can be found out by git log 
 
+Ques - Is force push a good practice? Yes/No why? In most of the tasks on
+this repo, you used force push, so why this practice is Okay (neither good
+nor bad) in your case?
+Ans - Force push may be good or bad. We should never ever force push on a
+public repository because this can break someone's pull.
+Because this is a forked repositry of the main repositry force pusing it 
+doesnt break any pull hence no problem occures.

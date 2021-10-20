@@ -21,6 +21,7 @@ First commit. We will go to the file state in first commit and checkout to new b
 
 
 
+ans-2 : yes. force pushing is bad practice. while doing the task we were only changing our file like for my case, i was only changing my info.md file. Therefore it didn't affect others data. 
 
 
 

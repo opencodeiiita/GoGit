@@ -49,4 +49,4 @@ ans-3 : I think the git bisect isn't used in any task.
 
 
 
-
+ans-4 : if we all the ans at the end but keep the ans at very further line so git doesn't consider it as a hunk, the process will remain same. but if the lines are closer git will consider either two aur all three ans as one hunk and we then canno split commits. 

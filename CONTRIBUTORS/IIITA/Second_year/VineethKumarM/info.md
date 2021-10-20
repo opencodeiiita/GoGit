@@ -1,3 +1,9 @@
+How and why merge conflicts arise?
+Ans: when two contributors make changes in the same section of the same file and commit, 
+merge conflicts arise. In this situation git doesn't no which commit should be merged 
+so it presents us the merge conflicts.
+
+
 Hi there!<br>
 It's Vineeth Kumar Munigyala this side<br>
 My Github Handle [VineethKumarM](https://github.com/VineethKumarM)<br>
@@ -26,6 +32,12 @@ Ques - Resources that you follow to learn the above tech-stacks?
 ANSWER: Youtube, Udemy and sometimes articles/blogs on the Internet.
 
 
+Is force push a good practice?
+No, Most of the force push is not recommended. when we force push it ignores others commits while working 
+in a public repo/project. But in out task contributor's are editing their own info files, others wont make
+chnges in our file so we used force push to merge our commits.
+
+Git submodules.
 
 
 

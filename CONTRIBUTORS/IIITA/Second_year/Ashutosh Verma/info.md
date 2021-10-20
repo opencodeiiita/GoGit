@@ -46,3 +46,6 @@ Force push is good or bad depending on the situation. In most tasks, we used for
 ## Que3(issue-409) Name anyone Git or Github topic on which any issue is not made on this repo. 
 ## Ans:
 How to add different remote repo to our own repo locally to perform fetch opteration.
+## Que4(issue-409) What changes to your procedure of doing this task will happen if I told you to write all first three answers (Ans - 1, 2, 3) at the end of the file.
+## Ans:
+ No changes will occur to procedure as position of ans don't affecting our procedure.

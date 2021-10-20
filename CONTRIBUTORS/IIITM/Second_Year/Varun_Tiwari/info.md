@@ -44,7 +44,7 @@ ans-2 : yes. force pushing is bad practice. while doing the task we were only ch
 
 
 
-
+ans-3 : I think the git bisect isn't used in any task. 
 
 
 

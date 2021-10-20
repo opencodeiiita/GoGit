@@ -1,3 +1,5 @@
+ans-1 : it arises when git cannot merge changes automatically. like while doing the cherry-pick task, we faced merge conflicts because while cherry-picking we changes the text in the same lines and git cannot understand which change to  preserve while merging. 
+
 ### Hey, I'm Varun Tiwari
 I am a student of ABV-IIITM, Gwalior.
 To know more about me [visit here](https://github.com/varunKT001)

@@ -1,3 +1,9 @@
+How and why merge conflicts arise?
+Ans: when two contributors make changes in the same section of the same file and commit, 
+merge conflicts arise. In this situation git doesn't no which commit should be merged 
+so it presents us the merge conflicts.
+
+
 Hi there!<br>
 It's Vineeth Kumar Munigyala this side<br>
 My Github Handle [VineethKumarM](https://github.com/VineethKumarM)<br>

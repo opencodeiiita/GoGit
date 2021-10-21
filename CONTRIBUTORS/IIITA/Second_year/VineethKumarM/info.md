@@ -37,6 +37,8 @@ No, Most of the force push is not recommended. when we force push it ignores oth
 in a public repo/project. But in out task contributor's are editing their own info files, others wont make
 chnges in our file so we used force push to merge our commits.
 
+Git submodules.
+
 
 
 

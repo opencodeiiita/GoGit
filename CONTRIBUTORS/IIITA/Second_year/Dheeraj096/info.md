@@ -1,3 +1,7 @@
+  Q:-What type of development I do?
+  Ans:- Web development and cc. 
+
+
 Hello, I am Dheeraj bhardwaj 2nd year student at IIITA.
 
 

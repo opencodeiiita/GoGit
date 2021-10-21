@@ -32,6 +32,10 @@ Ques - Resources that you follow to learn the above tech-stacks?
 ANSWER: Youtube, Udemy and sometimes articles/blogs on the Internet.
 
 
+Is force push a good practice?
+No, Most of the force push is not recommended. when we force push it ignores others commits while working 
+in a public repo/project. But in out task contributor's are editing their own info files, others wont make
+chnges in our file so we used force push to merge our commits.
 
 
 

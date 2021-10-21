@@ -25,3 +25,7 @@ Ans  - Basically from my understanding SSH keys are secure alternate to email an
   then right click on the commit we want to revert
   then do a git pull --rebase origin branch_name_to_merge_to
   then git cherry-pick <SHA we copied earlier
+                            
+  Q:- Resources that I follow?
+                            
+  Ans:- Youtube , technical blogs, w3school, geekforgeeks etc.                          

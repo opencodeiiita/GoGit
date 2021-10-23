@@ -23,3 +23,5 @@
 5. Don't worry about the maximum number of commits in a PR, it may vary from issue to issue. (Only valid for this repo) (Also keep the second point in mind)
 6. If somehow I didn't respond to your PR under 40 hours then first try to ping me on `GoGit` channel and if I didn't reply their too, then you are free to complain about me to the our discord server admins.
 7. Participants who didn't register for the event are not allowed to participate in any repo (project) under opencode organisation.
+
+<!-- test for author PR updates from owner -->

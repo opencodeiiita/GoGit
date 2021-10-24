@@ -1,3 +1,8 @@
+###Ques - 1 How and why merge conflicts arise? (Answer from your own understanding)
+
+###Ans- Acc. to my understanding, a merge conflict happens when you merge two separate branches that contain different changes on the same locations in the same file and it's unclear which change should take precedence or whether both should be combined.
+
+
 Hello, I am Dheeraj bhardwaj 2nd year student at IIITA.
 
 

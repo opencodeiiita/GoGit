@@ -39,4 +39,9 @@ Ans  - Basically from my understanding SSH keys are secure alternate to email an
     
  ###Ques - 3 Name anyone Git or Github topic on which any issue is not made on this repo. (Your answer should be different from others.
 
-###Ans - Any issue regarding gitk command.       
+###Ans - Any issue regarding gitk command.      
+    
+    
+    
+ ###Ques - What changes to your procedure of doing this task will happen if I told you to write all first three answers (Ans - 1, 2, 3) at the end of the file.
+ ###Ans - no change   

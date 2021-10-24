@@ -34,4 +34,9 @@ Ans  - Basically from my understanding SSH keys are secure alternate to email an
                             
    ###Ques - 2 Is force push a good practice? Yes/No why? In most of the tasks on this repo, you used force push, so why this practice is Okay (neither good nor bad) in your case?
 
-###Ans - In short according to me it is not a good practise because Force-pushing is a highly threatening and risky method if you're working in a common repository. Using this force pushing you should be able to force your local revision to the remote repository.Like if many people are working on same issue then Force modifying the git history can get your collaborators out of sync but if you alone who is working on that issue then it is ok.                         
+###Ans - In short according to me it is not a good practise because Force-pushing is a highly threatening and risky method if you're working in a common repository. Using this force pushing you should be able to force your local revision to the remote repository.Like if many people are working on same issue then Force modifying the git history can get your collaborators out of sync but if you alone who is working on that issue then it is ok.    
+    
+    
+ ###Ques - 3 Name anyone Git or Github topic on which any issue is not made on this repo. (Your answer should be different from others.
+
+###Ans - Any issue regarding gitk command.       

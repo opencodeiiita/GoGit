@@ -30,3 +30,8 @@ Ans  - Basically from my understanding SSH keys are secure alternate to email an
   then right click on the commit we want to revert
   then do a git pull --rebase origin branch_name_to_merge_to
   then git cherry-pick <SHA we copied earlier
+                            
+                            
+   ###Ques - 2 Is force push a good practice? Yes/No why? In most of the tasks on this repo, you used force push, so why this practice is Okay (neither good nor bad) in your case?
+
+###Ans - In short according to me it is not a good practise because Force-pushing is a highly threatening and risky method if you're working in a common repository. Using this force pushing you should be able to force your local revision to the remote repository.Like if many people are working on same issue then Force modifying the git history can get your collaborators out of sync but if you alone who is working on that issue then it is ok.                         

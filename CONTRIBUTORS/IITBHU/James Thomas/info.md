@@ -35,3 +35,9 @@ In our case, as working on the individual named files, doesn't make any change t
 ### Ques-3 Name anyone Git or Github topic on which any issue is not made on this repo. (Your answer should be different from others.
 
 **Ans-3** Working on some issue that uses some concept of detached head if added can be really helpful.
+
+**Q** Explain the procedure you used to solve this task. Also, explain that why this process is the best option to find out that, when and what bug got introduced in your code?
+
+**A** First used git grep "bug" to find content in which directory/file this is found. <br/>
+Then used git log -S"This is a bug file" && git log --after="2021-10-14" <br/>
+This showed the author, date, time and commit hash.This is useful as it searches the git log according to the date and content of the bug/issue caused.

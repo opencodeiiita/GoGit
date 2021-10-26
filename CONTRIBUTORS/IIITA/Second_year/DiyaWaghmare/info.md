@@ -10,7 +10,7 @@ Method to amend the last commit:
 Type git commit --amend (If you want to open the editor and type new commit msg by entering insert mode)
 or else Type git commit --amend -m "New commit msg" 
 Web Development
-Method to delete last commit:
+Method to delete last commit
 git reset commitid^ --hard (Reset the branch to the particular commit)
 git push origin -f (Force push it to remote repository)
 

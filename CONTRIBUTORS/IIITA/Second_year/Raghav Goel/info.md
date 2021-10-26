@@ -44,4 +44,8 @@ After commiting your changes, make a PR.
 Now, reorder both these commits and then again push your changes. Remember that you are not allowed to use cherry pick, squashing, reseting and reverting to reorder the commits.
 
 NOTE: The total number of commits on the PR should be 2 only ;)
+Explain the procedure you used to solve this task. Also, explain that why this process is the best option to find out that, when and what bug got introduced in your code?
+
+I used git log -p to see the commit history along with the changes introduced in the commit. This opened a less window in my terminal. I then used the / command to search for a string and then searched for "bug", which led me to the commit where the bug file was added and also showed me the hash for that particular commit. I found this particular method useful here because the input of the file was given to me, and i could easily search for it using the command in the less window.
+Also since the entire history of the commit along with the changes made in it is shown in git log -p, it helped me find out when the commit was made along with the problem of the bug.
 

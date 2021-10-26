@@ -34,3 +34,12 @@ OR
 
 git commit --amend -m"commit message"
 Answer 2> freecodecamp.org, reading docs
+
+#### [Issue 445](https://github.com/opencodeiiita/GoGit/issues/445)
+
+Ques - Explain the procedure you used to solve this task. Also, explain that why this process is the best option to find out that, when and what bug got introduced in your code?
+- I used git grep "This is a bug file"
+- used git log to find the time and found who introduced this and when
+- As this process doesn't affect any other process it is viable to use.
+- Sun Oct 24 01:30:33 2021 (when) 
+- (what) a file name bug.md in CONTRIBUTORS/IIITA/Second_year/Isha Rawat

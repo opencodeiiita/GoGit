@@ -30,3 +30,6 @@ doesnt break any pull hence no problem occures.
 Ques - Name anyone Git or Github topic on which any issue is not made on this repo. 
 Ans - Working on remotes.
 
+Ques - What changes to your procedure of doing this task will happen if I told you to write all first three answers (Ans - 1, 2, 3) at the end of the file.
+
+Ans - Two possible asnwers when we create a new commit and squash it no problem will occur but if we were to edit the top commit then while editing the not exist commit, we will have to edit that 3 times.

@@ -57,12 +57,43 @@ git revert <bad commit hash>
 This is the best method to find bug because we can move to individual commits and test the code for bugs and can revert the changes if bug is found. 
 
 
+1. create a merge commit: 
+In this merge method, all the commits of the branch, lets say test, are merged onto the base branch along with a merge commit which tells details about the merge like which users repo commits are merged. 
+To use this method, we must have write permissions in the repo
 
+2. squash and merge: 
+In this merge method, all the commits of the branch, lets say test, are first squashed into one commit and then are merged onto the base branch (without a merge commit). 
+To use this method, we must have write permissions in the repo and the repo must allow squash merging. 
 
+3. rebase and merge:
+In this merge method, all the commits of the branch, lets say test, are added to the base branch individually (without a merge commit). The rebase and merge method modifies git commit history, therefore should be only used for small changes. 
+To use this method, we must have write permissions in the repo and the repo must allow rebase merging. 
 
+4. manually merging using terminal: 
+In this method, we use our terminal to merge a pull request.
+Firstly we will fetch the remote data onto our local system using: 
+git fetch origin
+Now we will checkout to a new branch with the head pointing to origin/test, say test, using:
+git checkout -b test origin/test
+Now we will merge the base branch to test using:
+git merge main
+Now checkout to main branch: 
+git checkout main
+Now we can merge the branch test to base branch main using: 
+git merge test
+OR
+git merge --no-ff test
+If we use the first command, there will be no merge commit, but if we use the second command, there will be a merge commit. 
+Now we can push the changes to the remote: 
+git push origin main
 
-
-
-
-
-
+Commands used by me for the 4th method (branch b4 already exist on my local system):
+(already merged previous 3 branches to main-copy) 
+git checkout main-copy
+git pull origin main-copy
+git fetch origin
+git checkout b4
+git merge main-copy
+git checkout main-copy
+git merge --no-ff b4
+git push origin main-copy

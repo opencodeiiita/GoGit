@@ -44,4 +44,9 @@ After commiting your changes, make a PR.
 Now, reorder both these commits and then again push your changes. Remember that you are not allowed to use cherry pick, squashing, reseting and reverting to reorder the commits.
 
 NOTE: The total number of commits on the PR should be 2 only ;)
-
+1.Create a Merge Commit: In this method, all the commits that the PR has are added to the commit history of the repository to which the PR is made, along with a merge commit which shows from which branch of which repo, the commits are merged into the repo.
+2.Squash and Merge Commit: In this method, all the commits of the PR are squashed into one commit and added as a single commit to repo/branch where the PR is made.There is no extra merge commit. You also get an option to change the default commit message.
+In general for this method, the repo needs to allow Squash and Merge option.
+3.Rebase and Merge: In this method, the commit history is altered, i.e the commits of the PR are added individually, but without a merge commit. It can be useful in cases where a small commit needs to be added to a big project.
+In general for this method, the repo needs to allow the Rebase and merge option.
+4.Locally merging a commit. In this, first you have to fetch the remote into the local clone to make sure the references are updated. If the branch(B) from which the PR was created already exists, you can simply merge that into the target branch(A) using git merge B(this will not add a merge commit, the heads of A and B will be same, and the PR will close automatically.) If you merge B using git merge --no-ff, then a merge commit will also be added. 

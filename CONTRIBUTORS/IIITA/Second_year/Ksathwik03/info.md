@@ -31,3 +31,6 @@ Ques - Name anyone Git or Github topic on which any issue is not made on this re
 Ans - Working on remotes.
 
 
+Ques - What changes to your procedure of doing this task will happen if I told you to write all first three answers (Ans - 1, 2, 3) at the end of the file.
+
+Ans - If we write at the end then we have to edit 1 hunk but by this method we have to edit 2 hunks

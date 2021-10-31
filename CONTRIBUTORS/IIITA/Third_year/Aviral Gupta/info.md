@@ -62,3 +62,10 @@ If ```git add -p``` were to be used:<br>
 <b>Ques - 1 Why do we do fetch before the merge or pull?</b><br>
 Before working on a new feature, we generally would want to work on top of the features already made by other contributors. To retrieve these changes from the remote repo, we do a fetch & merge or pull.
 
+## Issue 470
+<b>Q1 - Explain objects and refs folder inside ./git. Where git commits are stored in ./git folder?</b><br>
+<b>Objects</b> folder is a folder where the hash value of every commit, every tree and every file is stored. Through this folder, Git keeps track of location of different files and folders. <br>
+
+A ref is an indirect way of referring to a commit. To access a particular commit we can define some alias, tag that or commit or use the special refs which are HEAD, FETCH_HEAD, ORIG_HEAD etc.<br>
+
+All the commits are stored as hashes in the <b>objects</b> folder.<br>

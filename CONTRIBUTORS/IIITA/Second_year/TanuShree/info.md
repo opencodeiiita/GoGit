@@ -32,3 +32,6 @@ ans - No, I haven't got any merge conflicts since I've included Ques-1 at the st
 
 Ques 1 - Why would one ever need to ever reorder his commits?
 ans) We need to reorder commits in order to improve git history for better understanding. We can reorder commits by using interactive rebase since this allows to rewrite git history.
+
+Ques 2 - What are Git Submodules? Why are they used?
+ans) Git submodules lets us clone another repository into our project and keep commits separate. The .gitmodules file created, contains meta data about the mapping between the submodule project's URL and local directory.

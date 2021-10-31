@@ -69,3 +69,8 @@ Before working on a new feature, we generally would want to work on top of the f
 A ref is an indirect way of referring to a commit. To access a particular commit we can define some alias, tag that or commit or use the special refs which are HEAD, FETCH_HEAD, ORIG_HEAD etc.<br>
 
 All the commits are stored as hashes in the <b>objects</b> folder.<br>
+
+<b>Q2 - Differentiate between tree and blob in git? What they represent?</b><br>
+A blob object is used to store the contents of a single file.<br>
+A tree object conatains references to other blobs or subtreese(subdirectories).<br>
+

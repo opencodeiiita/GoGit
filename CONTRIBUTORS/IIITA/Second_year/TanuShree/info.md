@@ -32,3 +32,6 @@ ans) If we have written all the 3 answers at the end then we would have only one
 
 Ques - 3 Does the merge conflicts come when you applied your stashes? Why/Why not?
 ans - No, I haven't got any merge conflicts since I've included Ques-1 at the start of file and Ques-3 at the end of file.
+
+Ques 2 - What are Git Submodules? Why are they used?
+ans) Git submodules lets us clone another repository into our project and keep commits separate. The .gitmodules file created, contains meta data about the mapping between the submodule project's URL and local directory.

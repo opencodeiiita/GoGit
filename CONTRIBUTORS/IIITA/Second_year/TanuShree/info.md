@@ -1,3 +1,6 @@
+Ques 1 - Why would one ever need to ever reorder his commits?
+ans) We need to reorder commits in order to improve git history for better understanding. We can reorder commits by using interactive rebase since this allows to rewrite git history.
+
 Ques - 1 Why do we do fetch before the merge or pull?
 ans - Using git pull, all the changes are made to our local repo without letting us check those codes before merge.But, if we use git fetch, then we would be able to review the changes before merging. So, this is why we use fetch before merge.
 

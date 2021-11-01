@@ -63,6 +63,7 @@ If ```git add -p``` were to be used:<br>
 Before working on a new feature, we generally would want to work on top of the features already made by other contributors. To retrieve these changes from the remote repo, we do a fetch & merge or pull.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ## Issue 443
 <b>Ques 1 - Why would one ever need to ever reorder his commits?</b><br>
@@ -73,3 +74,8 @@ Git Submodules allows us to keep a git repo as a subdirectory of another git rep
 Main use of it I found was to integrate the work of two different parties. One can also track changes in several repositories via a central one repo.
 
 >>>>>>> 1b1d564 (ag-2)
+=======
+## Issue 443
+<b>Ques 1 - Why would one ever need to ever reorder his commits?</b><br>
+Reordering of commits is done, if the commits makes more sense in reordered form or if the commits are to be squashed.
+>>>>>>> f901af5 (ag-1)

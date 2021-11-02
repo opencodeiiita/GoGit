@@ -73,7 +73,10 @@ the flag is added so git dont make a fast forward merge. then we can push our ch
 
 
 
-
+Ques - 1 : When you clone someones repo without forking it, the original repo will be set as the remote to your local repository.
+We know that to share our work with colleagues who are working within the same repo, we add a remote and push our changes, and we fetch 
+others changes. Now while contributing when you neeed to push the commits we get a permision error unlesss you have the write access to the original 
+repository. So if are not one of the collaborator you cant contribute. If we had forked the repo initially we wont face this issue as we can push commits to our fork and make a pr.
 
 
 

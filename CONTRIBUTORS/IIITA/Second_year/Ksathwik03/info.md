@@ -53,3 +53,7 @@ Using this merge method all the commits of the branch are added to the base bran
 
 4) Terminal merge: 
 Using this method helps in merging commits using our terminal first we have to make sure the head of the branch which is getting meged is updated to avoid any conflicts then we can use have to go to that branc and use git merge --no--ff <branch name> to add a merge commit or git merge <branch name> to merge without a conflict
+
+Ques - 1 What if you clone without fork? What problems will you face when you try to contribute in this condition?
+
+Ans - When we clone without forking ans say we made some changes and want to push them then what exactly happens is we are pushing the changes directly to the main repo which we maynot have access most of the times.Forking a repository means we are basically creating a copy of the repository under our GitHub ID. Now if there are any changes in our repo we push that local changes to our repo and then we create a pull request requesting the administrator to accept out changes to the original repository .

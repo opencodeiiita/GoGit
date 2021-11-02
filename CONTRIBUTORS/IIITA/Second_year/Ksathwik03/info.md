@@ -57,3 +57,7 @@ Using this method helps in merging commits using our terminal first we have to m
 Ques - 1 What if you clone without fork? What problems will you face when you try to contribute in this condition?
 
 Ans - When we clone without forking ans say we made some changes and want to push them then what exactly happens is we are pushing the changes directly to the main repo which we maynot have access most of the times.Forking a repository means we are basically creating a copy of the repository under our GitHub ID. Now if there are any changes in our repo we push that local changes to our repo and then we create a pull request requesting the administrator to accept out changes to the original repository .
+
+Ques - 2 Can we undo a hard reset of a commit? If No/Yes why? (Undo means can we get back the changes that we did in that commit?)
+
+Ans - Yes it is possible to hard reset theat commit by cherry picking the commit using the sha key from the .git/refs folder 

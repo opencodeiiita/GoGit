@@ -62,6 +62,7 @@ If ```git add -p``` were to be used:<br>
 <b>Ques - 1 Why do we do fetch before the merge or pull?</b><br>
 Before working on a new feature, we generally would want to work on top of the features already made by other contributors. To retrieve these changes from the remote repo, we do a fetch & merge or pull.
 
+
 ## Issue 470
 <b>Q1 - Explain objects and refs folder inside ./git. Where git commits are stored in ./git folder?</b><br>
 <b>Objects</b> folder is a folder where the hash value of every commit, every tree and every file is stored. Through this folder, Git keeps track of location of different files and folders. <br>
@@ -74,3 +75,10 @@ All the commits are stored as hashes in the <b>objects</b> folder.<br>
 A blob object is used to store the contents of a single file.<br>
 A tree object conatains references to other blobs or subtreese(subdirectories).<br>
 
+## Issue 443
+<b>Ques 2 - What are Git Submodules? Why are they used?</b><br>
+Git Submodules allows us to keep a git repo as a subdirectory of another git repo. They enable a Git repository to track version history of external code.<br>
+Main use of it I found was to integrate the work of two different parties. One can also track changes in several repositories via a central one repo.
+
+<b>Ques 1 - Why would one ever need to ever reorder his commits?</b><br>
+Reordering of commits is done, if the commits makes more sense in reordered form or if the commits are to be squashed.

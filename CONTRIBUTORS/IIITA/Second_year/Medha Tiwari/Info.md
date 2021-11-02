@@ -54,3 +54,10 @@ refer [this](https://www.atlassian.com/git/tutorials/dotfiles)
 #### What changes to your procedure of doing this task will happen if I told you to write all first three answers (Ans - 1, 2, 3) at the end of the file.
 
 Only change I observed was that if all the answers were written continuously then git will not consider them as separate hunks and we have to manually edit the patch two times(first for ans-1 and ans-2 and second for ans-2 and ans-3) compared to now when I have just edited that one time (for ans-2 and ans-3).
+
+
+[Issue 431](https://github.com/opencodeiiita/GoGit/issues/431)
+1) We use git fetch to know/review the changes before actual pull i.e. merging with our working copy. Pull automatically merge the changes with our local repository.
+
+Ques - 3 Does the merge conflicts come when you applied your stashes? Why/Why not?
+Ans. Yes because I was working on the same location for ques-1 and ques-3 

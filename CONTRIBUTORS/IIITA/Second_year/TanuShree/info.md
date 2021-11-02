@@ -1,3 +1,7 @@
+Ques - 1 Why do we do fetch before the merge or pull?
+ans - Using git pull, all the changes are made to our local repo without letting us check those codes before merge.But, if we use git fetch, then we would be able to review the changes before merging. So, this is why we use fetch before merge.
+
+
 answer1) Merge conflicts arise when there are conflicting changes on the same region of file / same lines, because git can't distinguish which one to keep and which to remove.
 
 Hey !
@@ -22,3 +26,6 @@ answer2) No, force push is not a good practice because it may overwrite any chan
 answer3) git mv - to rename a git file, git submodules.
 
 ans) If we have written all the 3 answers at the end then we would have only one hunk to edit instead of two and we have had to make changes three times.
+
+Ques - 3 Does the merge conflicts come when you applied your stashes? Why/Why not?
+ans - No, I haven't got any merge conflicts since I've included Ques-1 at the start of file and Ques-3 at the end of file.

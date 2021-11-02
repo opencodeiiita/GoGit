@@ -26,3 +26,7 @@ If we had added all 3 answers at the end we would have only one hunk to edit whi
 4. Merge locally: In this method you can use your command line to merge commit. After fetching remote, we use git merge --no-ff to prevent fast-forwarding a commit. This works like the 1st method and adds an extra merge commit.
 
 The first method in which we create a merge commit is the best way to do it because you can clearly see all the commits (helpful in instances where you need to find a bug) and the commit history isn't altered either.
+We would have to reorder our commits so that it could be interpreted better in the Github commit history (it might make more sense in a different order).
+Ques 3. Yes I will get merge conflicts because I've written the answer for ques 1 and ques 3 in the same section of my markdown file.
+We use git Submodules when we might need to use the contents of one repository in another so we make that repository a sub directory(submodule) in the main repo.
+Ques 1. Git pull doesn't let you review the changes that you are pulling from the remote repo to your local copy. Fetching changes allows us to review those changes before merging or pulling them (otherwise we may lose the changes in our local copy and they may be overwritten).

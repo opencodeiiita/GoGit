@@ -79,4 +79,11 @@ others changes. Now while contributing when you neeed to push the commits we get
 repository. So if are not one of the collaborator you cant contribute. If we had forked the repo initially we wont face this issue as we can push commits to our fork and make a pr.
 
 
+ques2 : Yes, depending on the changees of the repo we can undo a hard reset of commit. We can find the details of the commit in git reflog. Using the commit id of the commit which is before our hard reeset we can undo the changes.
+use git reset --hard commit-id.
+we cannot undo a  reset which erased unstaged changes but we can undo one that has erased commits and staged changes.
+
+
+
+
 

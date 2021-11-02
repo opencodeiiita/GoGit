@@ -16,3 +16,6 @@ Ans2) Normally, it is not a good practice (unless you are the only one using the
 
 Ans3) I dont think ` git tag` and ` git revert` havent been done yet.
 AnswerFInal) If I had to add all the three answers together, then they would come as a part of just one chunk and we will then have to `edit` that chunk.
+
+Ques - 1 What if you clone without fork? What problems will you face when you try to contribute in this condition?
+Ans1) We might have problence syncing and thus may be unable to contribute properly. If we dont have write permission in our remote then well be unable to contribute.

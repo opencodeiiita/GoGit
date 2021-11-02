@@ -7,3 +7,7 @@ How to edit the last commit message in git?
 Ans:The most recent commit message can be edited using the git commit --amend command 
 git commit --amend -m "title" -m "description"
 use force push to change a commit which has been pushed.
+
+Ques - 1 What if you clone without fork? What problems will you face when you try to contribute in this condition?
+Ans: When we clone without fork the changes we make will be pushed to main repository but this is not possible if we dont have the access to the repo 
+so we make a copy of the repo and push changes into it so that the owner of the repo can verify our contribution and merge it.

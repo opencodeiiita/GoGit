@@ -11,3 +11,9 @@ use force push to change a commit which has been pushed.
 Ques - 1 What if you clone without fork? What problems will you face when you try to contribute in this condition?
 Ans: When we clone without fork the changes we make will be pushed to main repository but this is not possible if we dont have the access to the repo 
 so we make a copy of the repo and push changes into it so that the owner of the repo can verify our contribution and merge it.
+Ques - 2
+In most of the cases we can change it depends on the state your repository. 
+the effects of git reset --hard can range from trivial to undo. 
+you can recover commits using git reflog it shows the list of times when head is changed. 
+We can use git reset --hard commit-id to undo the changes. 
+

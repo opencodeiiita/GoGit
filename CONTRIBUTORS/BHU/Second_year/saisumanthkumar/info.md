@@ -11,3 +11,11 @@ The main point to note here is that any changes made to the original repository 
 
 **Ans-2** yes we can do a hard reset and get the commits back. As Git stores all the history of every event permanently. The event related to the HEAD are stored as references in `.git/refs folder`. We can view the reference logs using : `git reflog`
 This will show all the changes that occured. Now we can copy the commit hash of the commits we want and the can use cherry-pick to get the changes back.
+
+### Ques - 3 Explain in detail the three-stage architecture of Git.
+
+**Ans-3** Git is three-stage architecture those are 
+- Working directory
+- staging area and 
+- Git Repository
+Working directory is the file explorer’s folder where the files are stored, Staging area is a area where those files are present which we want to send to commit, After commit is fired, files which are in staging area will move to Git Repository.

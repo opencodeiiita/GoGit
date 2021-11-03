@@ -21,7 +21,7 @@ The main reason to reorder a commit is to improve your git history, so that when
 a particular order, they make more sense to the user and to a person viewing it.
  How to delete a commit?
  I will use git reset --hard HEAD^ to delete the latest commit i will have made.
- 
+ In order for Git to represent the structure and naming of your files, it attaches blobs as leaf nodes within a tree. A blob is just a bunch of data, and a tree is like a directory, which points to blob objects.
  WebD
 
 

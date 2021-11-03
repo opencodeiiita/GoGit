@@ -2,6 +2,7 @@ ans-1 : it arises when git cannot merge changes automatically. like while doing 
 
 ### Hey, I'm Varun Tiwari
 I am a student of ABV-IIITM, Gwalior.
+new repo [https://github.com/varunKT001/first](https://github.com/varunKT001/first)
 To know more about me [visit here](https://github.com/varunKT001)
 This is the link of the repo [GoGit_repo](https://github.com/varunKT001/GoGit)
 

@@ -45,3 +45,4 @@ HEAD is a pointer to the branch or commit that you last checked out, and which w
 The index is an alternate name for staging area where the new commit is prepared. Once our filed are staged from the working tree into our index, their contents can be committed. If we do git commit -a, this will automatically add all changes to files that Git knows about to the index before committing, so it will commit the current contents of your working tree as well.
 
 For more information, you can read from https://www.py4u.net/discuss/1720480
+Trees and blobs: The working tree in git is the place where we are making all our changes and where our files are placed to be commited. Any changes made here will be added to the staging area to be commited later in the index.

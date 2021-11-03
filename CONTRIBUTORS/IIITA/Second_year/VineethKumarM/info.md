@@ -91,8 +91,5 @@ working tree, it keeps track of our files.You possibily had seen the *working tr
 Coming to the Index , simply this can be called as the staging area, Its where the files staged are placed.Before u commit the index keeps all those contents of staged files, unless u commit without staging.
 Now HEAD is the reference which points to the last commit you have made.Everytime u make a commit head shifts to that new commit.
 
-
-
-
 Reorder Commits: Reordering commits is a very useful thing. We sometimes want to change their order coz they make more sense. Example I a developing a website, I added some image links and commited but i forgot the images folder. Now I csn sdd the older and reorder my commits.
 

@@ -13,13 +13,13 @@ Web Development
 Method to delete last commit:
 git reset commitid^ --hard (Reset the branch to the particular commit)
 git push origin -f (Force push it to remote repository)
-
+Objects and refs: All events and commits in git are saved as a hash value in object folder which tells us about the file contents and their location. In git we can refer to a particular commit using both its commit hashes and commit reference (by checking out to the branch where the commit is on top). The ref folder inside .git folder is used to store these references.  
 2. Force pushing is not a good practice because it may cause conflicts for others working in that repository and it may overwrite someone else's commit. When we did it was fine because we were the only ones working on our repositories.
 
 3. git bisect, git hooks, git submodules
 
 If we had added all 3 answers at the end we would have only one hunk to edit while adding commits intsead of two hunks.
-
+A blob is a type of object used to store the contents of each file in a repository. the blog contains the hash of the files. these blobs are used by git to track and store changes in the working tree.
 1. Create a merge commit: In this method, an extra merge commit will show along with all the other commits in that PR in our commit history. This extra merge commit gives details about which branch is being merged.
 2. Squash and merge: There is no extra merge commit in this method as all the commits in that PR gets squashed along with it. There is an option to change the commit message so that we will see only one commit in our commit history.
 3. Rebase and merge: This method rewrites git history to append changes from the branch individually, without creating a merge commit. This method should be used carefully.

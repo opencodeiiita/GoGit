@@ -4,7 +4,7 @@ This is Raghav Goel.<br>
 My  <a href = ""https://github.com/raghavgoel25"">Github Profile</a>
 
 What do you really understand from SSH keys? What are the advantages of using it?
-
+All objects or events are stored in the object folder. This data is stored in  here, which point to what the files are ,where they are located etc. We can use commit hash to point to that, or we can also use a commit reference. If we even use a branch name , we just point to a commit refernce which is present on top of that branch. The ref folder is used to store these. Since every hash of a event is in objects folder, commits also stored there.
 SSH key is a method that can be used for authentication different from normal passwords mainly in the way it operates. 
 SSH keys are more long than typically used passwords and are computer generated, making them less prone to hacking. 
  They are not stored on servers, but only the device which is being used for login, hence again

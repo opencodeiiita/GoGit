@@ -1,3 +1,5 @@
+1. Merge conflicts arise when there are two different changes on the same line or same section of code so Git can't tell which chnages to include and which to remove.
+
 Hey, my name is Diya Waghmare. 
 I am a developer and student of IIIT Allahabad. 
 My Github profile link is: https://github.com/diyawaghmare 
@@ -11,3 +13,20 @@ Web Development
 Method to delete last commit:
 git reset commitid^ --hard (Reset the branch to the particular commit)
 git push origin -f (Force push it to remote repository)
+
+2. Force pushing is not a good practice because it may cause conflicts for others working in that repository and it may overwrite someone else's commit. When we did it was fine because we were the only ones working on our repositories.
+
+3. git bisect, git hooks, git submodules
+
+If we had added all 3 answers at the end we would have only one hunk to edit while adding commits intsead of two hunks.
+
+1. Create a merge commit: In this method, an extra merge commit will show along with all the other commits in that PR in our commit history. This extra merge commit gives details about which branch is being merged.
+2. Squash and merge: There is no extra merge commit in this method as all the commits in that PR gets squashed along with it. There is an option to change the commit message so that we will see only one commit in our commit history.
+3. Rebase and merge: This method rewrites git history to append changes from the branch individually, without creating a merge commit. This method should be used carefully.
+4. Merge locally: In this method you can use your command line to merge commit. After fetching remote, we use git merge --no-ff to prevent fast-forwarding a commit. This works like the 1st method and adds an extra merge commit.
+
+The first method in which we create a merge commit is the best way to do it because you can clearly see all the commits (helpful in instances where you need to find a bug) and the commit history isn't altered either.
+We would have to reorder our commits so that it could be interpreted better in the Github commit history (it might make more sense in a different order).
+Ques 3. Yes I will get merge conflicts because I've written the answer for ques 1 and ques 3 in the same section of my markdown file.
+We use git Submodules when we might need to use the contents of one repository in another so we make that repository a sub directory(submodule) in the main repo.
+Ques 1. Git pull doesn't let you review the changes that you are pulling from the remote repo to your local copy. Fetching changes allows us to review those changes before merging or pulling them (otherwise we may lose the changes in our local copy and they may be overwritten).

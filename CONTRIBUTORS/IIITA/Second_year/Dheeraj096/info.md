@@ -30,6 +30,36 @@ Ans  - Basically from my understanding SSH keys are secure alternate to email an
   then do a git pull --rebase origin branch_name_to_merge_to
   then git cherry-pick <SHA we copied earlier
                             
+
   Q:- Resources that I follow?
                             
   Ans:- Youtube , technical blogs, w3school, geekforgeeks etc.                          
+  
+  Ways of merging
+  1)) creating a merge commit :- This is a straight forward method it merges all commits from pr and also create a one more commit of merge commit in which details of merge in our master branch.  
+                            
+  2)) Squash and merge :- So this ia a second method of merging pr. If in your pr there are so many commits then it squash it to a single commit and then merge the changes in remote repositiory.
+                            
+  3)) Rebase and merge :- Now this is the third method of merging pr by rebasing. This method modifies the git commit history. There is no extra Merge commit. Like if we want to merge pr in main branch from test branch then by rebasing and mrging method the recent commit of the pr will becomes the HEAD of our main branch.
+                            
+  4)) Through local terminal:- Ex. I have to merge in main-copy branch from my  waste5 branch 
+                            
+command followed:-git checkout main-copy
+                            
+git pull origin main-copy
+                            
+git fetch origin
+                            
+git checkout waste5
+                            
+git merge main-copy
+                            
+git checkout main-copy
+                            
+git merge --no-ff waste5
+                            
+git push origin main-copy
+                            
+                            
+                            
+                            

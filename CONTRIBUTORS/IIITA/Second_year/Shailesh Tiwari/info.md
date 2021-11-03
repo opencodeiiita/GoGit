@@ -1,4 +1,6 @@
-Hi this is SHailesh Tiwari!
+Ans1) Merge conflicts happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file. And when the differences of 2 or more commits coincide then a merge conflict takes place.
+
+Hi this is Shailesh Tiwari!
 This is my profile https://github.com/shlesh
 
 What do you really understand from SSH keys? What are the advantages of using it?
@@ -9,4 +11,8 @@ ssh keys are almost impossible to hack.
 I do Web Development
 How to edit last commit message using git?
 The git commit --amend command allows you to change the most recent commit message.
-I did webd from various sources like youtube, udemy, freecodecamp and so on... the most notable being freecodecamp
+
+Ans2) Normally, it is not a good practice (unless you are the only one using the repo) otherwise it can cause all sorts of issues for the other collaborators. It was alright for us in opencode as we would be making separate PR's thus it wouldnt conflict, but in a general use case its not good practice.
+
+Ans3) I dont think ` git tag` and ` git revert` havent been done yet.
+AnswerFInal) If I had to add all the three answers together, then they would come as a part of just one chunk and we will then have to `edit` that chunk.

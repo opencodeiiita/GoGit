@@ -1,3 +1,6 @@
+q1: when there are different changes in the same part of the file, git doesn't no which change should be merged 
+so it presents us the merge conflicts.
+
 Hi there!<br>
 It's Vineeth Kumar Munigyala this side<br>
 My Github Handle [VineethKumarM](https://github.com/VineethKumarM)<br>
@@ -26,6 +29,42 @@ Ques - Resources that you follow to learn the above tech-stacks?
 ANSWER: Youtube, Udemy and sometimes articles/blogs on the Internet.
 
 
+q2: force push is not recommended. when we force push git overwrites the recent commits,
+it may result in loss of others work.we have used force push in the gogit tasks as only I am working in my repository.
+
+
+q3: git submodules.
+git Submodules: Submodules allow you to keep a Git repository as a subdirectory of another Git repository. This lets you clone another repository into your project and keep your commits separate. These can be used when we are working on 2 projects, we want to use one within the other but they should have their own history.
+
+
+
+q4: there wont be much change in the procedure, if we added all answers at end then we are presented a 
+single hunk to edit. then we would have separated that hunk into three and make the respective commits
+one by one.
+
+
+
+Different types of merging pull requests
+pr made to master branch
+Create a merge commit:
+this will add all the commits from the pr, and makes an additional merge commit with the details of the merge in our master branch. This is very simple and the default option on github. 
+
+Squash and Merge:
+It squashes all the commits into one and merge's it without any merge commit.
+before squashing we can provide a squash description also.For example smaller commits that are added to keep track of work being done that don’t necessarily need to have their own commit, we can instead squash them into one commit. 
+> But when mentors can use this to merge prs why did they ask us to squash🤔🤔.
+
+Rebase and Merge:
+It adds all the commits from the pr to our repos history. There is no extra Merge commit. The most recent commit of the pr 
+will now be the HEAD of our master branch. Rebases set the committer of the rebased commits to the current user. But this can be done only when there isn't any merge conflict.
+
+only the ones with write access to the repo can perform the above tasks. And if only that specific type is enabled for that repository.
+
+Merge locally through command line:
+I hope this is the best method for repo's that maintain any development project.
+In this method for a specific pr we use the pr ID and fetch it into a new branch. using the command :
+*git fetch origin pull/ID/head:new-branch-name* then checkout to that branch . Now we can test the changes and we can edit the changes too. after reviewing we can checkout to the master branch and merge this new branch: *git merge --no-ff new-branch-name*
+the flag is added so git dont make a fast forward merge. then we can push our changes to the remote. The pr will automatically be closed. 
 
 
 
@@ -35,5 +74,26 @@ ANSWER: Youtube, Udemy and sometimes articles/blogs on the Internet.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reorder Commits: Reordering commits is a very useful thing. We sometimes want to change their order coz they make more sense. Example I a developing a website, I added some image links and commited but i forgot the images folder. Now I csn sdd the older and reorder my commits.
 
 

@@ -73,27 +73,26 @@ the flag is added so git dont make a fast forward merge. then we can push our ch
 
 
 
+Ques - 1 : When you clone someones repo without forking it, the original repo will be set as the remote to your local repository.
+We know that to share our work with colleagues who are working within the same repo, we add a remote and push our changes, and we fetch 
+others changes. Now while contributing when you neeed to push the commits we get a permision error unlesss you have the write access to the original 
+repository. So if are not one of the collaborator you cant contribute. If we had forked the repo initially we wont face this issue as we can push commits to our fork and make a pr.
+
+
+ques2 : Yes, depending on the changees of the repo we can undo a hard reset of commit. We can find the details of the commit in git reflog. Using the commit id of the commit which is before our hard reeset we can undo the changes.
+use git reset --hard commit-id.
+we cannot undo a  reset which erased unstaged changes but we can undo one that has erased commits and staged changes.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+HEAD, Working tree and Index:
+Here Working tree is all the files which we are working in our local repository, we can view and modify the files in  our 
+working tree, it keeps track of our files.You possibily had seen the *working tree clean* sentence on git bash , It means that the all the changes have been staged and commited. 
+Coming to the Index , simply this can be called as the staging area, Its where the files staged are placed.Before u commit the index keeps all those contents of staged files, unless u commit without staging.
+Now HEAD is the reference which points to the last commit you have made.Everytime u make a commit head shifts to that new commit.
 
 
 
 
 Reorder Commits: Reordering commits is a very useful thing. We sometimes want to change their order coz they make more sense. Example I a developing a website, I added some image links and commited but i forgot the images folder. Now I csn sdd the older and reorder my commits.
-
 

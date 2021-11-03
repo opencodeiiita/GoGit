@@ -30,3 +30,13 @@ We would have to reorder our commits so that it could be interpreted better in t
 Ques 3. Yes I will get merge conflicts because I've written the answer for ques 1 and ques 3 in the same section of my markdown file.
 We use git Submodules when we might need to use the contents of one repository in another so we make that repository a sub directory(submodule) in the main repo.
 Ques 1. Git pull doesn't let you review the changes that you are pulling from the remote repo to your local copy. Fetching changes allows us to review those changes before merging or pulling them (otherwise we may lose the changes in our local copy and they may be overwritten).
+
+Second half
+Ques - 2 Explain in detail the difference between HEAD, working tree and index, in Git.
+Ans. Working tree is nothing but the files you are currently working on where we can try out any chnages we want. After we are done working on our files we move it to our staging area to be committed (index).
+
+HEAD is a pointer to the branch or commit that you last checked out, and which will be the parent of a new commit if you make it.  For example, if we are on the main branch then our HEAD will point to to the last commit made in the main branch. Once we commit, main will be updated to point to the new commit. So it is the current commit you are working with and is usually a "branch head". If you checkout (and work on) any commit which isn't one of the (branch) heads, you are in a "detached HEAD" mode.
+
+The index is an alternate name for staging area where the new commit is prepared. Once our filed are staged from the working tree into our index, their contents can be committed. If we do git commit -a, this will automatically add all changes to files that Git knows about to the index before committing, so it will commit the current contents of your working tree as well.
+
+For more information, you can read from https://www.py4u.net/discuss/1720480

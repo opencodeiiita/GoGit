@@ -122,3 +122,48 @@ As said earlier every event is stored as a hash in object folder, so all the com
 Q2 - Differentiate between tree and blob in git? What they represent?
 ans : the working tree in git is the directry in which all our files are placed. whenever, there is any change in the tree, git index the changes and we can then stage and commit them. 
 A blob is a type of object used to store the contents of each file in a repository. the blog contains the hash of the files. these blobs are used by git to track and store changes in the working tree.
+
+Ques - 1 What if you clone without fork? What problems will you face when you try to contribute in this condition?
+ans : cloning is simply get a copy of the remote repository to the local system, while forking creates a copy as well as maintains sync with the original repository. If we clone without fork, I become dificult to sync the changes between local and remote. Also If we want to contribute to a project, just cloning is a bad choice. We won't be able to create any pull to the remote repository because we would not have any collaborators access. The owner of the repository needs to add us as a collaborator for us to make  changes. While in forking we can make our changes and create a pull request easily without and hassle. Also forking helps us maintain sync with the two repositories.  
+
+Ques - 2 Can we undo a hard reset of a commit? If No/Yes why?
+ans : yes we can do a hard reset and get the commits back. Git stores all the history of every event permanently. The event related to the HEAD are stored as references in .git/refs folder. We can view the reference logs using : 
+git reflog
+This will show all the changes that occured. Now we can copy the commit hash of the commits we want and the can use cherry-pick to get the changes back. 
+
+SECOND PART: 
+Ques - 2 Explain in detail the difference between HEAD, working tree and index, in Git.
+Ans - The hierarchy followed in the three stage architechture of git is : 
+
+WORKING TREE    INDEX      HEAD
+    | --------->  |          |
+    |(index file) | -------> |
+    |             | (commit) |
+
+Working tree : Working tree contains the file structure of our repository, i.e this is where all our files resides. It is the place where we make changes to our files (like coding a new feature, removing bugs etc.). After making changes we can move the desired files to the index (staging area). 
+
+Index : Index is the list all the files whos changes are to be committed. All the files in the index will be used when you commit your changes, and are replaced by the original files before commiting. We can also remove some files from the index, make some more neccessary changes and add them to the index again. To add a file to the git index we use the following command :
+git add <FILE_NAME> => this will add the specific file to the index
+git add . => add all the files in the working tree to the index
+To remove files from the index use the following commands : 
+git restore --staged <FILE_NAME> => remove particular file from index
+git restore --staged . => remove all the files from the index
+
+HEAD : HEAD is a reference to the last commit made in the current branch. For ex : 
+If we are on main branch then head will point to the last commit made in the main branch (here, 3)
+
+(main branch)
+1 --> 2 --> 3 (HEAD)
+      |
+      4 --> 5 --> 6 
+      (dev) 
+
+If we are on dev branch then head will point to the last commit made in the dev branch (here, 6)
+
+(main branch)
+1 --> 2 --> 3 
+      |
+      4 --> 5 --> 6 (HEAD)
+      (dev)  
+
+Also, head will be the parent of the next commit going to be made in the branch when a new commit is made the head will be updated that commit in the branch. 

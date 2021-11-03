@@ -9,7 +9,7 @@ SSH key is a method that can be used for authentication different from normal pa
 SSH keys are more long than typically used passwords and are computer generated, making them less prone to hacking. 
  They are not stored on servers, but only the device which is being used for login, hence again
 making it less vulnerable to hacking.
- 
+ Github GPG keys are a way of verifying and signing your work. They can be used to encrypt and sign commits or tags to verify your respective contributions. It helps in verifying the identity of the person who made the commit.
  How to edit the last commit message in git?
  The following commands should be executed:-
  1.git commit --amend -m "New message" 
@@ -21,7 +21,7 @@ The main reason to reorder a commit is to improve your git history, so that when
 a particular order, they make more sense to the user and to a person viewing it.
  How to delete a commit?
  I will use git reset --hard HEAD^ to delete the latest commit i will have made.
- 
+ Dependabot is a github feature that helps keep your dependencies up-to-date. It scans your dependency files for outdated or insecure dependencies. It then creates a PR for the dependencies that need an update. You can then review,test and finally merge dependabot's changes if you are satisfied with it. Dependabot alerts you to any outdated dependencies which can turn out to be a weakness, and if enabled, it will try to fix it by upgrading  the vulnerable dependency. If it can suggest a fix, it also sends a pull request to update your dependency manifest with the closest non-vulnerable version.
  WebD
 
 
@@ -54,3 +54,9 @@ GitSubmodules basically allows you to keep one repository as the sub-repository 
 Ques - 3 Does the merge conflicts come when you applied your stashes? Why/Why not?
 Merge conflicts will arise because i have written the question 3 and the answer to question 1 in the same line.
 Fetch before a pull or a merge is used to review changes being made to the local clone before they are incorporated. When one directly pulls, an attempt is made to automatically merge those changes and hence once can't review those changes. But if one uses fetch, he gets a chance to check those changes before merging them into the local clone.
+One should always fork a repository, then clone the forked repository, if he wants to contribute and is not a collaborator on the original repo. If he is a collaborator, one can make changes,  then push those changes and get them merged. However, if one is not, his/hers pushed changes will get rejected directly. However he can push those changes to his forked repository, and make a pull request from there. One is also free to experiment and make a lot of changes in the forked repository and see if pushing them works, because if you push directly to the cloned original repository, you will have to undo them.
+
+Yes we can do that using git reflog. Git keeps tracks of all the updates in refernces. We can simply use the command git reflog to list those updates. Then we use git reset followed by the commit id of the commit to which we wanna reset to get back all the changes that were undone by git reset --hard.
+The 3-stage architecture of github comprises of three stages :- Working Directory, Staging Area and the Git Directory which is the repository. How this works is that one makes some changes to files in his Working Directory, he then adds those files to the Staging Area to be committed which are then pushed to the Git Directory.
+The main advantage of having the three stages, or the extra added Staging Area is that it allows you to push specific files to the staging area which can then be committed. This allows you to make different commits at the same time. For example, if one is working on two features simultaneously and he didn't have the staging area, he would have had to push the files for both the fetaures in a single commit. The Git history is not clear in such a case, but more importantly, if a bug was found and a commit had to be reverted, then the changes to all the files would have to be reverted. However, if we make two separate commits for the two different features using the Staging Area, this problem will be solved and the git history will also be improved. Another advantage of the staging area can be that the files that are added to the staging area can be pulled down as well if the need to change some code in those files is felt.
+

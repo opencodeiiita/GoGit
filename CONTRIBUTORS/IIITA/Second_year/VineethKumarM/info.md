@@ -75,5 +75,9 @@ the flag is added so git dont make a fast forward merge. then we can push our ch
 
 
 
-
+HEAD, Working tree and Index:
+Here Working tree is all the files which we are working in our local repository, we can view and modify the files in  our 
+working tree, it keeps track of our files.You possibily had seen the *working tree clean* sentence on git bash , It means that the all the changes have been staged and commited. 
+Coming to the Index , simply this can be called as the staging area, Its where the files staged are placed.Before u commit the index keeps all those contents of staged files, unless u commit without staging.
+Now HEAD is the reference which points to the last commit you have made.Everytime u make a commit head shifts to that new commit.
 

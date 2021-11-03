@@ -61,3 +61,25 @@ Only change I observed was that if all the answers were written continuously the
 
 Ques - 3 Does the merge conflicts come when you applied your stashes? Why/Why not?
 Ans. Yes because I was working on the same location for ques-1 and ques-3 
+
+<hr>
+[Issue 467](https://github.com/opencodeiiita/GoGit/issues/467)
+
+Ques - What is a GitHub gpg key? Why it is used? Also, tell that why we need to sign the commits?
+- Github gpg key is one of the key (public key) from a gpg key pair. Github uses it in the signature verfication of the user. Not only github but if someone has our public key id, they can import it and verify if the commit is a good or a bad commit.
+- As we can see when we change file directly on github, we get a verified badge. Using gpg key pair we can get this badge from the command line itself.(When we commit with a gpg private key and push it to the remote repo then Guthub verfies it with our public private key).
+- We need to sign our commits to make sure that the changes are coming from valid user.
+
+<hr>
+[Issue 437](https://github.com/opencodeiiita/GoGit/issues/437)
+
+- Create and Merge : It merges the pull request with an extra commit (merge commit) including all the commits in the PR. Easy and default. maintains the history well.
+
+- Rebase and merge : Adds all the commits from the PR into the repo without an extra commit.
+
+- Squash and merge : squash aal the commits of the Pr into one commit without an extra merge commit. It could be used for cleaner github repo.
+
+- Through CLI : terminal always gives us power and so does this method.
+we can fetch the PR to our local repo, review it, modify it, squash the commits etc. `git fetch origin pull/PR_Id/branch-name` to fetch the PR. checkout to `branch-name`. Review commits. checkout the main branch and merge it using `git merge --no-ff branch-name`. Push the changes to the remote and Pr will get automatically closed.
+
+

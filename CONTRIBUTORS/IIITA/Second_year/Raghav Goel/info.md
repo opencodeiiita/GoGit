@@ -23,7 +23,7 @@ a particular order, they make more sense to the user and to a person viewing it.
  I will use git reset --hard HEAD^ to delete the latest commit i will have made.
  Dependabot is a github feature that helps keep your dependencies up-to-date. It scans your dependency files for outdated or insecure dependencies. It then creates a PR for the dependencies that need an update. You can then review,test and finally merge dependabot's changes if you are satisfied with it. Dependabot alerts you to any outdated dependencies which can turn out to be a weakness, and if enabled, it will try to fix it by upgrading  the vulnerable dependency. If it can suggest a fix, it also sends a pull request to update your dependency manifest with the closest non-vulnerable version.
  WebD
-
+ In order for Git to represent the structure and naming of your files, it attaches blobs as leaf nodes within a tree. A blob is just a bunch of data, and a tree is like a directory, which points to blob objects.
 
 OnlineResources
 https://www.udemy.com/course/the-web-developer-bootcamp/

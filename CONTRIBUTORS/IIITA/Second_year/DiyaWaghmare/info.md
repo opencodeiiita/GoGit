@@ -19,6 +19,7 @@ Objects and refs: All events and commits in git are saved as a hash value in obj
 3. git bisect, git hooks, git submodules
 
 If we had added all 3 answers at the end we would have only one hunk to edit while adding commits intsead of two hunks.
+Trees and blobs: The working tree in git is the place where we are making all our changes and where our files are placed to be commited. Any changes made here will be added to the staging area to be commited later in the index.
 A blob is a type of object used to store the contents of each file in a repository. the blog contains the hash of the files. these blobs are used by git to track and store changes in the working tree.
 1. Create a merge commit: In this method, an extra merge commit will show along with all the other commits in that PR in our commit history. This extra merge commit gives details about which branch is being merged.
 2. Squash and merge: There is no extra merge commit in this method as all the commits in that PR gets squashed along with it. There is an option to change the commit message so that we will see only one commit in our commit history.

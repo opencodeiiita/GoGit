@@ -61,3 +61,18 @@ Ans - When we clone without forking ans say we made some changes and want to pus
 Ques - 2 Can we undo a hard reset of a commit? If No/Yes why? (Undo means can we get back the changes that we did in that commit?)
 
 Ans - Yes it is possible to hard reset theat commit by cherry picking the commit using the sha key from the .git/refs folder 
+
+
+Ques - 2 Explain in detail the difference between HEAD, working tree and index, in Git.
+Ans -
+The working tree is what is actually in the files that i am currently working on.
+
+HEAD is a pointer to the branch or commit that i last checked out, and which will be the parent of a new commit if you make it. For instance, if you're on the master branch, then HEAD will point to master, and when you commit, that new commit will be a descendent of the revision that master pointed to, and master will be updated to point to the new commit.
+
+The git index is the place where we place files that we want to commit then into the git repository.
+Before you "commit" (checkin) files to the git repository, you need to first place the files in the git "index".
+The index is not the working directory, we can type a command such as git status, and git will tell us what files in your working directory have been added to the git index by using the git add filename command.
+In simple words the index is a cache directory which is not in your git repo which will be comited into your git repositry by using git commit command.
+                         (HEAD)
+                           |   
+Commit 1 --> commit 2 --> commit 3 --> changes made (Index which will be commited to head)

@@ -17,3 +17,10 @@ the effects of git reset --hard can range from trivial to undo.
 you can recover commits using git reflog it shows the list of times when head is changed. 
 We can use git reset --hard commit-id to undo the changes. 
 
+three-stage architecture of Git.
+The three stages of git architecture are working directory, staging area, git repository.
+Working directory is the directory which contains our local file
+Staging area has only those files which we have staged and  are needed to be commited, once we are sure we can commit 
+and push our changes to the remote repository.
+Git repository is where all the collaborators push their works and we can get their working by pulling to our local directory
+
